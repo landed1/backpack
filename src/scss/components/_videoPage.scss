@@ -1,0 +1,93 @@
+/*#ytplayer{
+	min-height: 250px;
+}*/
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a i.fa
+{
+	padding: 3px;
+	cursor: pointer;
+	color:$darkHue;
+	&:hover{
+		color:darken($darkHue, 5%);
+	};
+}
+
+.videoListItem{
+
+	@include outer-container;
+
+	cursor: pointer;
+
+	.videoGroup{
+		@include span-columns(6);
+		margin-right: 0;
+
+		&.first{
+			border-top-right-radius: $component-border-radius;
+			border-top-left-radius: $component-border-radius;
+		}
+
+		&.last{
+			border-bottom-right-radius: $component-border-radius;
+		}
+
+	}
+
+	&:first-child{
+		border-top-left-radius: $component-border-radius;
+		border-top-right-radius: $component-border-radius;
+	}
+
+	&:nth-child(even) {
+		background-color: $hueOdd;
+	}
+
+	&:nth-child(odd) {
+		background-color: $hueEven;
+	}
+
+	border-left: 1px solid gainsboro;
+	border-left: 1px solid gainsboro;
+	border-top: 1px solid gainsboro;
+
+	&.first{
+		border-top-left-radius: $component-border-radius;
+	}
+	&.last{
+		border-bottom-left-radius: $component-border-radius;
+		border-bottom-right-radius: $component-border-radius;
+	}
+
+}
+
+.videoTitleBar{
+	&.first{
+		border-top-left-radius: $component-border-radius;
+	}
+	
+	background-color: $lightBackground;
+	padding: 0.4em 0.3em .4em 0.3em;
+}
+.videoToolBar{background-color: $hueOdd;}
+
+.videoThumbnail{
+	@include span-columns(6);
+	img{
+		//margin-left:auto;
+		//margin-right: auto;
+	}
+}

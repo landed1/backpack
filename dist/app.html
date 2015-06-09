@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js ie8 no-svg" lang="en"><![endif]-->
+<!--[if IE 9]><html class="no-js ie9" lang="en"><![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title></title>
+<link rel="stylesheet" type="text/css" href="core.css">
+</head>
+
+<body ng-app="baApp" ng-controller="MainCtrl" data-ng-init="init()" ng-class="{open: modalFlag, closed: !modalFlag}">
+<div ng-view><div class="homeContainer">
+<ng-include src="'views/navbar.html'"></ng-include>
+
+  <section>
+    <!--no breadcrumb on home <ng-include src="'views/breadcrumb.html'"></ng-include>-->
+    <div class="">
+      <a ng-click="rte('/')">Home</a>
+      <a>You are home - welcome to Antigua and Barbuda</a>
+    </div>
+  </section>
+
+  <section>
+    <div ng-show="!homeFirstView" class="">
+        <h2>Welcome to Antigua and Barbuda</h2>
+        <p>Tools for the traveller[nice background]</p>
+    </div>
+  </section>
+
+  <section>
+    <ng-include src=" 'views/footer.html' "></ng-include>
+  </section>
+
+</div>
+</div>
+<!--TODO concatenate all the js into a single file -->
+<script defer src="js/angular.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-animate.js"></script>-->
+<script defer src="js/angular-resource.min.js"></script>
+<script defer src="js/angular-sanitize.min.js"></script>
+<script defer src="js/angular-animate.min.js"></script>
+<script defer src="js/angular-route.min.js"></script>
+<script defer src="js/angular-touch.min.js"></script>
+<script defer src="js/angular-local-storage.min.js"></script>
+<script defer src="js/app.js"></script>
+<script defer src="js/controllers/main.js"></script>
+<script defer src="js/controllers/videoController.js"></script>
+<script defer src="js/controllers/toursController.js"></script>
+<script defer src="js/controllers/modalController.js"></script>
+<script defer src="js/controllers/commentsController.js"></script>
+</body>
+
+</html>

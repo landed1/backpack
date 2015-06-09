@@ -1,0 +1,22 @@
+/*
+for some reason problems with rendering the breadcrub with this font very odd !
+@font-face {
+    font-family: 'FSBlake';
+    src: url('../fonts/FSBlakeWebRegular/fs_blake_web-regular.eot');
+    src: url('../fonts/FSBlakeWebRegular/fs_blake_web-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FSBlakeWebRegular/fs_blake_web-regular.woff') format('woff'),
+         url('../fonts/FSBlakeWebRegular/fs_blake_web-regular.svg#fsblakeweb-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+/* Set you webfont 
+
+body{
+	-webkit-text-rendering: optimizeLegibility;	    	
+	-moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility; 
+	font-family: FSBlake, Arial, sans-serif; 
+}*/

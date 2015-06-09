@@ -1,0 +1,14 @@
+<ng-include src="'views/navbar.html'"></ng-include>
+<ng-include src="'views/breadcrumb.html'"></ng-include>
+
+	<h2 class="viewTitle">Tours</h2>
+	<button ng-show="resolveFavouriteStatus('tours')" type="button" class=" viewTitle btn btn-primary fa fa-heart"  ng-click="addFavourite('tours')">&nbsp;&nbsp;Add to favourites</button>
+	  
+	<div>
+	    <ul class="list-group">
+	        <li class="list-group-item" ng-repeat="tour in tours" class="" ng-click="listItemTouch(this)" ng-swipe-left="swipeleft()">
+	        </li>
+	    </ul>
+	</div>
+	<span>{{debug}}</span>
+<ng-include src="'views/footer.html'"></ng-include>

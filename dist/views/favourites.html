@@ -1,0 +1,20 @@
+<ng-include src="'views/navbar.html'"></ng-include>
+<ng-include src="'views/breadcrumb.html'"></ng-include>
+
+ <h2 class="viewTitle">Favourites</h2>
+ <ul class="list-group containerMargin" ui:sortable ng:model="favourites">
+ 	<li class="list-group-item active"><p>Favourites (swipe to remove)</p></li>
+ 	<li ng-show="nofavourites" class="list-group-item">No current favourites created yet.</li>
+	<li class="list-group-item list-group-item-normal" ng-repeat="fave in favourites" ng-click="listItemTouch(this)" class=""  ng-swipe-left="swipeleft()" >
+	<div class="col-lg-8 left" style="clear:both;cursor:move;" >{{fave}}</div>
+        <div ng-show="showThis" class="ng-hide col-lg-4 right">
+                	<!--<div style="vertical-align:top;" class="redButton" ng-click="">Remove</div>-->
+                	<div class="btn-group btn-group-justified" style="width:110px;top:-6px;">
+                		<a ng-click="cancelDelete()" class="btn btn-default" style="width:70px;">Cancel</a>
+                		<a ng-click="removeFavourite($index)" class="btn btn-default fa fa-trash-o" style="width:40px;"></a>
+              		</div>
+        </div>
+ 	</li>
+ </ul>
+
+<ng-include src="'views/footer.html'"></ng-include> 

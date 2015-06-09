@@ -1,0 +1,64 @@
+@import "../../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "base/base";
+@import "../../bower_components/neat/app/assets/stylesheets/neat";
+
+
+
+//components
+@import "components/fontawesome";
+@import "components/menu";
+//@import "components/fonts";
+@import "components/spinner";
+@import "components/animation";
+@import "components/navbar";
+@import "components/modal";
+@import "components/breadcrumb";
+@import "components/pagination";
+@import "components/videoPage";
+
+/*core*/
+
+body{
+  margin:0;
+}
+
+section {
+  @include outer-container;
+  footer {
+    &.left{
+      @include span-columns(6); 
+    }
+    &.right{
+      @include span-columns(6); 
+    }
+  }
+  article {}
+
+  ul{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: $base-spacing;
+  }
+  
+  .pagination{
+    margin-bottom: $base-spacing;
+    padding: 10px;
+  }
+
+  .breadcrumb{
+    padding: 0.85em 0.6em 0.7em 0.6em;
+  }
+
+}
+
+section {
+  @include outer-container;
+  aside { @include span-columns(3); }
+  article { @include span-columns(9); }
+
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}

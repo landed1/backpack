@@ -1,0 +1,30 @@
+<ng-include src="'views/navbar.html'"></ng-include>
+<ng-include src="'views/breadcrumb.html'"></ng-include>
+
+<h2 class="viewTitle">Handy Info</h2>
+<div class="viewTitle spacerBottom">
+  <button ng-show="handyinfoShow" type="button" class=" btn btn-primary fa fa-heart"  ng-click="addFavourite('handyinfo')">&nbsp;&nbsp;Add to favourites</button>
+</div>
+
+<div class="col-lg-6">
+    <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Emergency contacts</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>         
+</div>
+<div class="col-lg-6">
+    <div class="panel panel-danger">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Miscelaneous</h3>
+                </div>
+                <div class="panel-body">
+                  Panel content
+                </div>
+              </div>         
+</div>
+
+<ng-include src="'views/footer.html'"></ng-include>

@@ -1,0 +1,9 @@
+<ul>
+	<li ng-repeat="comment in comments">
+		<h2>{{comment.author}}</h2>
+		<div>
+			<img ng-src="{{comment.avatar}}">
+			<p ng-bind-html="comment.body"></p>
+		</div>
+	</li>
+</ul>

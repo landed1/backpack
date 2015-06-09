@@ -1,0 +1,10 @@
+<div class="modal" ng-controller="ModalCtrl">
+  <input class="modal-state" id="modal-1" ng-model="checkboxModalModel" type="checkbox"/>
+  <div class="modal-fade-screen" ng-click="closeModal($event)">
+    <div class="modal-inner">
+      <div class="modal-close" for="modal-1" ng-click="closeModal($event)"></div>
+      <h1>{{title}}</h1>
+      <div class="modal-content" id="modal" class="ng-bind-htmlhtmlString"></div>
+    </div>
+  </div>
+</div>

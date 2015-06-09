@@ -1,0 +1,24 @@
+/*trying to use the max height here and the class fadein and out but there seems to be some strong harder to solve issues at play for now leaving as a binary on off*/
+nav ul{
+	
+	&.fadeout{
+		max-height: 400px;
+		overflow: hidden !important;
+		display:block!important;
+		&.ng-animate{
+			opacity: .5;
+		}
+	}
+	
+	&.fadein{
+		max-height: 0px;
+		height: auto;
+		
+		&.ng-animate{
+			opacity: 0.5;
+		}
+	}
+	/*
+	@include animation(opacity 10.0s ease-in);
+	@include transition(all 10.0s ease-in-out);*/
+}
