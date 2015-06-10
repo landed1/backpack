@@ -1,5 +1,0 @@
-{
-  "video":"<div class='videoWrapper'><my-youtube></my-youtube></div>",
-  "info":"<div ng-include='&#39;views&#47;info.html&#39;'></div>",
-  "comments":"<div ng-include='&#39;views&#47;comments.html&#39;'></div>"
-}
