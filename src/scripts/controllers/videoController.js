@@ -62,10 +62,11 @@ videoController.controller('VideoCtrl',['$scope','myGetService','myPostService',
 
   $scope.fBindDataToCtrl=function(d){
 	if(!d){
-	  console.log('we didnt get any data check this GET');
+	  //console.log('we didnt get any data check this GET');
 	  $scope.videos=$rootScope.initialAPIDATA.videos;
 	}
 	else{
+		//console.log(d.items);
 	  $scope.videos=d.items;
 	}
 
@@ -78,7 +79,7 @@ videoController.controller('VideoCtrl',['$scope','myGetService','myPostService',
 	  $scope.videos[i].title = $scope.videos[i].snippet.title;
 	  $scope.videos[i].desc = $scope.videos[i].snippet.description;
 	  $scope.videos[i].videoId = $scope.videos[i].snippet.resourceId.videoId;
-	  $scope.videos[i].thumbUrl = $scope.videos[i].snippet.thumbnails.default.url;
+	  $scope.videos[i].thumbUrl = $scope.videos[i].snippet.thumbnails.high.url;
 
 	  $rootScope.initialAPIDATA.videos = $scope.videos;
 

@@ -18,17 +18,19 @@
                         <i class="fa fa-info-circle fa-3x"></i></a>
                         </div>
             	</div>
-            	<div class="videoGroup" ng-class="{first:$first==true , last:$last==true}">
+            	<div class="videoGroup right" ng-class="{first:$first==true , last:$last==true}">
             	<div class="videoThumbnail"><img ng-src="{{ video.thumbUrl }}"/></div>
             	<div>
             </li>
         </ul>
     </section>
 
-<section>
+<!--<section>
     <ng-include src="'views/pagination.html'"></ng-include>
-</section>
+</section>-->
 
 <section>
-    <ng-include src=" 'views/footer.html' "></ng-include>
+    <div class="fixedBottom">
+        <ng-include src=" 'views/footer.html' "></ng-include>
+    </div>
 </section>

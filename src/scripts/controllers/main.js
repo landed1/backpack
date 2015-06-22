@@ -3,7 +3,7 @@
 angular.module('baApp')
     .controller('MainCtrl', ['$scope','$location','localStorageService','$animate',function ($scope,$location,localStorageService,$animate){
       //$scope.featuredVideos=['vid1','vid2','vid3','vid4','vid5','vid6','vid7','vid8','vid9','vid10','vid11','vid12','vid13','vid14','vid15'];
-      $scope.code = 'N6oS1wX4WdU';
+      console.log('aa');
       //set a starting section
       $scope.section='Home';
       //handle mobile navigation collapse

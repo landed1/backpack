@@ -1,6 +1,8 @@
 header.navigation {
   $base-border-color: gainsboro !default;
   $base-border-radius: 3px !default;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   $action-color: #477DCA !default;
   $dark-gray: #333 !default;
   $large-screen: em(860) !default;
@@ -259,12 +261,14 @@ header.navigation {
   // Elements on the far right
 
   .navigation-tools {
-    background: #505050;
-    clear: both;
-    display: block;
-    height: $navigation-height;
-    padding-left: $navigation-padding / 2;
-    padding-right: $navigation-padding;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background: #505050;
+      clear: both;
+      display: block;
+      height: $navigation-height;
+      padding-left: $navigation-padding / 2;
+      padding-right: $navigation-padding;
 
     @include media($horizontal-bar-mode) {
       background: transparent;
@@ -342,5 +346,36 @@ header.navigation {
         display: block;
       }
     }
+  }
+}
+
+section{
+
+  footer {
+
+    padding-top: 4px;
+
+    &.left{
+      @include span-columns(6);
+      padding-left:1em;
+    }
+    &.right{
+      @include span-columns(6);
+      text-align: right;
+      padding-right: .4em;
+    }
+
+  }
+
+  div.fixedBottom{
+    $search-bar-border: 1px solid darken($lightBackground,10%);
+    border: $search-bar-border;
+    position: absolute;
+    //bottom:0px;
+    width: 100%;
+    background-color: $lightBackground;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom:none;
   }
 }

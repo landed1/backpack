@@ -4,16 +4,68 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"borde",
+				"border-color"
+			],
+			[
+				"video",
+				"videoId"
+			],
+			[
+				"vid",
+				"videoId"
+			],
+			[
+				"tmp",
+				"tmpString"
+			],
+			[
+				"cach",
+				"cachedComments"
+			],
+			[
+				"get",
+				"getData"
+			],
+			[
+				"fir",
+				"firstChild"
+			],
+			[
+				"safe",
+				"safeObject"
+			],
+			[
+				"tr",
+				"trustAsHtml"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"ge",
+				"getData"
+			],
+			[
+				"on",
+				"onError"
+			],
+			[
 				"comm",
 				"comments"
 			],
 			[
 				"htl",
 				"htmlString"
-			],
-			[
-				"get",
-				"getTemplate"
 			],
 			[
 				"change",
@@ -50,14 +102,6 @@
 			[
 				"modalC",
 				"modalController"
-			],
-			[
-				"mar",
-				"margin-left"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"AP",
@@ -102,10 +146,6 @@
 			[
 				"updat",
 				"updatePrice"
-			],
-			[
-				"marg",
-				"margin"
 			],
 			[
 				"margin",
@@ -287,6 +327,78 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "main.html",
+			"settings":
+			{
+				"buffer_size": 428,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "videos.html",
+			"settings":
+			{
+				"buffer_size": 1708,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "events.html",
+			"settings":
+			{
+				"buffer_size": 473,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/calvincrane/Sites/ba-app/src/scss/components/_animation.scss",
+			"settings":
+			{
+				"buffer_size": 960,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/calvincrane/encours/readme.cons",
+			"settings":
+			{
+				"buffer_size": 1275,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/calvincrane/Sites/ba-app/dist/core.css",
+			"settings":
+			{
+				"buffer_size": 57150,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/calvincrane/Sites/ba-app/src/scripts/controllers/videoController.js",
+			"settings":
+			{
+				"buffer_size": 3437,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/calvincrane/Sites/ba-app/src/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 1642,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/calvincrane/Sites/ba-app/src/scss/core.scss",
+			"settings":
+			{
+				"buffer_size": 862,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -327,58 +439,48 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/calvincrane/Sites/ba-app",
-		"/Users/calvincrane/Sites/ba-app/assets",
-		"/Users/calvincrane/Sites/ba-app/bower_components",
-		"/Users/calvincrane/Sites/ba-app/bower_components/neat/app",
-		"/Users/calvincrane/Sites/ba-app/bower_components/neat/app/assets",
-		"/Users/calvincrane/Sites/ba-app/bower_components/neat/app/assets/stylesheets",
-		"/Users/calvincrane/Sites/ba-app/dist",
-		"/Users/calvincrane/Sites/ba-app/dist/data",
-		"/Users/calvincrane/Sites/ba-app/src",
-		"/Users/calvincrane/Sites/ba-app/src/scripts",
-		"/Users/calvincrane/Sites/ba-app/src/scripts/controllers",
-		"/Users/calvincrane/Sites/ba-app/src/scss/base",
-		"/Users/calvincrane/Sites/ba-app/src/scss/components",
-		"/Users/calvincrane/Sites/ba-app/src/templates",
-		"/Users/calvincrane/Sites/ba-app/src/templates/data",
-		"/Users/calvincrane/Sites/ba-app/src/templates/views",
-		"/Users/calvincrane/Sites/yoangular",
-		"/Users/calvincrane/Sites/yoangular/app",
-		"/Users/calvincrane/Sites/yoangular/app/bower_components",
-		"/Users/calvincrane/Sites/yoangular/app/scripts",
-		"/Users/calvincrane/Sites/yoangular/app/scripts/controllers",
-		"/Users/calvincrane/Sites/yoangular/app/views",
-		"/Users/calvincrane/encours/cambs.eu/dist/fonts",
-		"/Users/calvincrane/encours/cambs.eu/src",
-		"/Users/calvincrane/encours/cambs.eu/src/scss"
-	],
 	"file_history":
 	[
-		"/Users/calvincrane/Sites/ba-app/src/scripts/controllers/videoController.js",
-		"/Users/calvincrane/Sites/ba-app/src/templates/views/videos.html",
-		"/Users/calvincrane/Sites/ba-app/src/scripts/app.js",
-		"/Users/calvincrane/Sites/ba-app/src/templates/views/modal.html",
-		"/Users/calvincrane/Sites/ba-app/src/templates/data/templates.json",
-		"/Users/calvincrane/Sites/ba-app/Gruntfile.js",
+		"/Users/calvincrane/Sites/ba-app/src/scss/components/_navbar.scss",
+		"/Users/calvincrane/encours/readme.cons",
+		"/Users/calvincrane/Sites/ba-app/src/templates/views/tours.html",
+		"/Users/calvincrane/Sites/ba-app/src/scripts/services.js",
 		"/Users/calvincrane/Sites/ba-app/src/scripts/controllers/main.js",
+		"/Users/calvincrane/Sites/ba-app/dist/js/controllers/main.js",
 		"/Users/calvincrane/Sites/ba-app/src/scripts/controllers/modalController.js",
+		"/Users/calvincrane/Sites/ba-app/src/scss/components/_videoPage.scss",
+		"/Users/calvincrane/Sites/ba-app/src/templates/views/footer.html",
+		"/Users/calvincrane/Sites/ba-app/src/scripts/app.js",
+		"/Users/calvincrane/Sites/ba-app/Gruntfile.js",
+		"/Users/calvincrane/Sites/ba-app/src/scss/base/_typography.scss",
+		"/Users/calvincrane/Sites/ba-app/src/scss/components/_fonts.scss",
+		"/Users/calvincrane/Sites/ba-app/src/scss/components/_breadcrumb.scss",
+		"/Users/calvincrane/Sites/ba-app/src/templates/index.html",
+		"/Users/calvincrane/Sites/ba-app/src/templates/views/modal.html",
+		"/Users/calvincrane/Sites/ba-app/src/scss/components/_spinner.scss",
+		"/Users/calvincrane/encours/readme.php",
+		"/Users/calvincrane/Sites/ba-app/.gitignore",
+		"/Users/calvincrane/Sites/ba-app/src/scripts/controllers/toursController.js",
+		"/Users/calvincrane/Sites/ba-app/src/templates/views/info.html",
+		"/Users/calvincrane/Sites/ba-app/src/templates/data/config.json",
+		"/Users/calvincrane/Sites/ba-app/src/templates/data/templates.json",
+		"/Users/calvincrane/Sites/ba-app/src/templates/views/yt-video.html",
+		"/Users/calvincrane/Sites/ba-app/src/scss/core.scss",
+		"/Users/calvincrane/Sites/ba-app/src/templates/views/comments.html",
+		"/Users/calvincrane/Sites/ba-app/src/templates/views/videos.html",
+		"/Users/calvincrane/Sites/ba-app/src/scss/components/_modal.scss",
+		"/Users/calvincrane/Sites/ba-app/src/scss/components/_animation.scss",
+		"/Users/calvincrane/Sites/ba-app/dist/views/comments.html",
+		"/Users/calvincrane/Sites/ba-app/dist/data/templates.json",
+		"/Users/calvincrane/Sites/ba-app/src/scripts/controllers/videoController.js",
 		"/Users/calvincrane/Sites/ba-app/src/templates/views/modalVideo.html",
 		"/Users/calvincrane/Sites/ba-app/src/templates/views/modalComments.html",
-		"/Users/calvincrane/Sites/ba-app/src/scss/components/_videoPage.scss",
 		"/Users/calvincrane/Sites/ba-app/src/scripts/controllers/commentsController.js",
-		"/Users/calvincrane/Sites/ba-app/src/templates/index.html",
-		"/Users/calvincrane/encours/readme.cons",
-		"/Users/calvincrane/Sites/ba-app/src/templates/views/comments.html",
 		"/Users/calvincrane/Sites/ba-app/src/templates/views/favourites.html",
-		"/Users/calvincrane/Sites/ba-app/src/scss/components/_modal.scss",
 		"/Users/calvincrane/Sites/yoangular/app/scripts/controllers/modalController.js",
 		"/Users/calvincrane/Sites/yoangular/app/views/comments.html",
 		"/Users/calvincrane/Sites/ba-app/src/templates/views/main.html",
 		"/Users/calvincrane/Sites/ba-app/src/scss/base/_variables.scss",
-		"/Users/calvincrane/Sites/ba-app/src/scss/core.scss",
 		"/Users/calvincrane/Sites/yoangular/app/scripts/controllers/videoController.js",
 		"/Users/calvincrane/Sites/ba-app/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss",
 		"/Users/calvincrane/Sites/ba-app/bower_components/neat/.bower.json",
@@ -390,24 +492,17 @@
 		"/Users/calvincrane/Sites/ba-app/src/templates/views/pagination.html",
 		"/Users/calvincrane/Sites/ba-app/src/scss/base/_base.scss",
 		"/Users/calvincrane/Sites/ba-app/src/templates/views/breadcrumb.html",
-		"/Users/calvincrane/Sites/ba-app/src/scss/components/_fonts.scss",
-		"/Users/calvincrane/Sites/ba-app/src/scss/base/_typography.scss",
-		"/Users/calvincrane/Sites/ba-app/src/templates/views/footer.html",
 		"/Users/calvincrane/Sites/ba-app/src/scss/components/_pagination.scss",
 		"/Users/calvincrane/Sites/ba-app/src/scss/components/_menu.scss",
-		"/Users/calvincrane/Sites/ba-app/src/scss/components/_animation.scss",
 		"/Users/calvincrane/encours/cambs.eu/Gruntfile.js",
 		"/Users/calvincrane/Sites/ba-app/dist/views/breadcrumb.html",
 		"/Users/calvincrane/Sites/ba-app/src/scss/components/_fontawesome.scss",
 		"/Users/calvincrane/Sites/ba-app/dist/js/angular-animate.min.js",
 		"/Users/calvincrane/Sites/ba-app/bower.json",
-		"/Users/calvincrane/Sites/ba-app/dist/js/controllers/main.js",
 		"/Users/calvincrane/Sites/ba-app/bower_components/angular-full/angular-animate.js",
 		"/Users/calvincrane/Sites/ba-app/bower_components/angular-full/angular.js",
 		"/Users/calvincrane/Sites/ba-app/dist/core.css",
-		"/Users/calvincrane/Sites/ba-app/src/scss/components/_navbar.scss",
 		"/Users/calvincrane/Sites/ba-app/src/scss/base/_grid-settings.scss",
-		"/Users/calvincrane/Sites/ba-app/src/scss/components/_breadcrumb.scss",
 		"/Users/calvincrane/encours/consolelog.sublime-snippet",
 		"/Users/calvincrane/Sites/ba-app/src/scripts/controllers/modalController-refactor-out.js",
 		"/Users/calvincrane/Sites/ba-app/node_modules/node-bourbon/node_modules/bourbon/app/assets/stylesheets/css3/_animation.scss",
@@ -450,7 +545,6 @@
 		"/Users/calvincrane/Sites/cambs.eu/templates/jumbotron/index.php",
 		"/Users/calvincrane/Sites/cambs.eu/templates/cambs/templateDetails.xml",
 		"/Users/calvincrane/encours/cambs.eu/src/scss/fa-todelete/_variables.scss",
-		"/Users/calvincrane/encours/readme.php",
 		"/Users/calvincrane/encours/cambs.eu/src/_templates/partials/components/flowplayer2.html",
 		"/Users/calvincrane/Sites/cambs.eu/modules/mod_rokfeaturetable/tmpl/default.php",
 		"/Users/calvincrane/encours/cambs.eu/src/scss/flowplayer.scss",
@@ -474,17 +568,7 @@
 		"/Users/calvincrane/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/calvincrane/encours/cambs.eu/src/_templates/partials/components/avatar.html",
 		"/Users/calvincrane/Sites/cambs.eu/modules/mod_bootstrapnav/tmpl/default.php",
-		"/Users/calvincrane/Sites/cambs.eu/modules/mod_menu/tmpl/default.php",
-		"/Users/calvincrane/encours/cambs.eu/src/_templates/partials/carousel.html",
-		"/Users/calvincrane/Sites/cambs.eu/dev/proxy3.php",
-		"/Users/calvincrane/Sites/cambs.eu/mobile/index.html",
-		"/Users/calvincrane/Sites/cambs.eu/mobile01/src/view/Layout.js",
-		"/Users/calvincrane/Sites/cambs.eu/mobile01/src/controller/Market.js",
-		"/Users/calvincrane/Sites/cambs.eu/mobile01/lib/sencha-touch-2.0.0-gpl/src/tab/Tab.js",
-		"/Users/calvincrane/Sites/cambs.eu/mobile01/res/css/application.css",
-		"/Users/calvincrane/Sites/cambs.eu/mobile01/lib/sencha-touch-2-rc/builds/sencha-touch-all-debug.js",
-		"/Users/calvincrane/Sites/cambs.eu/mobile01/lib/sencha-touch-2-rc/builds/sencha-touch-all-compat.js",
-		"/Users/calvincrane/Sites/cambs.eu/mobile01/app.js"
+		"/Users/calvincrane/Sites/cambs.eu/modules/mod_menu/tmpl/default.php"
 	],
 	"find":
 	{
@@ -495,6 +579,12 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/calvincrane/Sites/ba-app/src/",
+			"/Users/calvincrane/Sites/ba-app/src/scss",
+			"/Users/calvincrane/Sites/ba-app/bower_components/neat",
+			"/Users/calvincrane/Sites/ba-app/src/scss",
+			"/Users/calvincrane/Sites/ba-app/src/",
+			"/Users/calvincrane/Sites/ba-app/src/scss",
 			"/Users/calvincrane/Sites/ba-app/src",
 			"/Users/calvincrane/Sites/ba-app/src/",
 			"/Users/calvincrane/Sites/ba-app/src/scripts",
@@ -569,6 +659,46 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"roatan]",
+			"myslide",
+			"getfrom",
+			"thumbnail",
+			"img",
+			"262626",
+			"$search-bar-border-color",
+			".search-bar",
+			"header.navigation .search-bar form input[type=search]",
+			"span-columns",
+			"navigation-wrapper",
+			"$base-border-color",
+			"navigation-tools",
+			"navigation",
+			"border-radius",
+			"homeFirstView",
+			"linky",
+			"getTemplates",
+			"$scope.appKey",
+			"key",
+			"getApKey",
+			"111",
+			"videoId",
+			"111",
+			"code",
+			"commentsLoaded",
+			"type",
+			"closeModal",
+			"99999999999",
+			"getVideoDescriptions",
+			"myGetService",
+			"linky",
+			"$scope.body",
+			"watch",
+			"linky",
+			"commentsLoaded",
+			"myGetService",
+			"commentsLoaded",
+			"modal.html",
+			"main.html",
 			"setData",
 			"videoWrapper",
 			"payments@",
@@ -656,47 +786,7 @@
 			"fs",
 			"captcha",
 			"jform_captcha",
-			"recaptcha_area",
-			"jform_captcha",
-			"recaptcha_image",
-			"size=\"60\"",
-			"rebeccacoles",
-			"contact",
-			"fa-camera-retro",
-			"icon-camera-retro",
-			"fa-camera",
-			"icon-camera-retro",
-			"@fa-font-path",
-			"icon-",
-			"icon-google-plus-sign",
-			"gantry-totop",
-			"rokfeaturetable",
-			"rokfeaturetable ",
-			"rokfeaturetable  col3",
-			"breadcrumb",
-			".carousel-caption",
-			"900",
-			"carousel-inner",
-			"carousel-inner .item img",
-			"white.png",
-			".flowplayer .fp-ui,",
-			".flowplayer .fp-ui, .flowplayer .fp-message",
-			".flowplayer .fp-engine, .flowplayer .fp-ui, .flowplayer .fp-message",
-			"fp-engine",
-			".flowplayer .fp-engine, .flowplayer .fp-ui, .flowplayer .fp-message",
-			"dot",
-			".carousel",
-			"carousel-inner > .item",
-			"carousel-inner",
-			"transition: 0.6s ease-in-out",
-			"transition: 0.6s",
-			"transition: 0.6s ease-in-out",
-			".carousel-inner",
-			".carousel-inner > .item > img",
-			"button-variant",
-			"cambs.eu",
-			"cambs",
-			"featuretable-col-border"
+			"recaptcha_area"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -740,8 +830,275 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 428,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								420,
+								420
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "videos.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								277,
+								268
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "events.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437,
+								437
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/calvincrane/Sites/ba-app/src/scss/components/_animation.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								672,
+								672
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/calvincrane/encours/readme.cons",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								300
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 139.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/calvincrane/Sites/ba-app/dist/core.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38211,
+								38218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 30188.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/calvincrane/Sites/ba-app/src/scripts/controllers/videoController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2440,
+								2440
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/calvincrane/Sites/ba-app/src/templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								350
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/calvincrane/Sites/ba-app/src/scss/core.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								595,
+								595
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
 			]
 		}
 	],

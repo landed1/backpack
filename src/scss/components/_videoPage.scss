@@ -29,8 +29,15 @@ a i.fa
 .videoListItem{
 
 	@include outer-container;
+	//@include span-columns(6);
 
 	cursor: pointer;
+
+	.videoGroup.right{
+		//@include outer-container;
+		//@include span-columns(3);
+		//@include shift(3);
+	}
 
 	.videoGroup{
 		@include span-columns(6);
@@ -85,8 +92,9 @@ a i.fa
 .videoToolBar{background-color: $hueOdd;}
 
 .videoThumbnail{
-	@include span-columns(6);
+	@include span-columns(12);
 	img{
+		width: 50%;
 		//margin-left:auto;
 		//margin-right: auto;
 	}

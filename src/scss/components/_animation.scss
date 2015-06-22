@@ -15,8 +15,41 @@
     @include transform(rotate(360deg));
   }
 }
-
+/*
 @-webkit-keyframes rotation {
     from {-webkit-transform: rotate(0deg);}
     to   {-webkit-transform: rotate(359deg);}
+}*/
+
+/*some play stuff below*/
+
+.animationWrapper{
+  width:95%;
+  height:300px;
+  background: rgba(#0090f0,.2);
+  $search-bar-border: 1px solid darken($lightBackground,10%);
+  border: $search-bar-border;
+
+  @include outer-container;
+
+  .window{
+    overflow: hidden;
+    position: relative;
+    min-height: 300px;
+    
+    .subject{
+      animation: myslide 4s 1s infinite linear alternate;
+      left:100px;
+      position: absolute;
+      width:1000px;
+      height:150px;
+      background:rgba(#157309,.2);
+
+    }
+
+  }
+}
+
+@include keyframes(myslide){
+  to   {left:-1000px;}
 }

@@ -89,9 +89,9 @@ module.exports = function(grunt) {
         files:[
                 {
                     expand: true,
-                    cwd: 'src/scripts/controllers',
+                    cwd: 'src/scripts/',
                     src: ['**'],
-                    dest: 'dist/js/controllers'
+                    dest: 'dist/js/'
                 },
                 {
                     expand: true,
@@ -126,10 +126,6 @@ module.exports = function(grunt) {
                 {
                     src: 'bower_components/angular-local-storage/dist/angular-local-storage.js',
                     dest:'dist/js/angular-local-storage.min.js'
-                },
-                {
-                    src: 'src/scripts/app.js',
-                    dest: 'dist/js/app.js'
                 }
               ]
       },

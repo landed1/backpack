@@ -1,5 +1,6 @@
 /*
-for some reason problems with rendering the breadcrub with this font very odd !
+for some reason problems with rendering the breadcrub triangle with this font very odd !
+*/
 @font-face {
     font-family: 'FSBlake';
     src: url('../fonts/FSBlakeWebRegular/fs_blake_web-regular.eot');
@@ -9,8 +10,8 @@ for some reason problems with rendering the breadcrub with this font very odd !
     font-weight: normal;
     font-style: normal;
 }
-*/
-/* Set you webfont 
+
+/* Set you webfont */
 
 body{
 	-webkit-text-rendering: optimizeLegibility;	    	
@@ -19,4 +20,4 @@ body{
     -o-text-rendering: optimizeLegibility;
     text-rendering: optimizeLegibility; 
 	font-family: FSBlake, Arial, sans-serif; 
-}*/
+}

@@ -3,21 +3,17 @@
 
   <section>
     <!--no breadcrumb on home <ng-include src="'views/breadcrumb.html'"></ng-include>-->
-    <div class="">
-      <a ng-click="rte('/')">Home</a>
-      <a>You are home - welcome to Antigua and Barbuda</a>
-    </div>
   </section>
 
   <section>
     <div ng-show="!homeFirstView" class="">
-        <h2>Welcome to Antigua and Barbuda</h2>
-        <p>Tools for the traveller[nice background]</p>
     </div>
   </section>
 
-  <section>
-    <ng-include src=" 'views/footer.html' "></ng-include>
-  </section>
+    <section>
+        <div class="fixedBottom">
+            <ng-include src=" 'views/footer.html' "></ng-include>
+        </div>
+    </section>
 
 </div>

@@ -1,25 +1,14 @@
+<modal-dialog></modal-dialog>
+<div id="spinner" ng-show="showLoad"> value is {{hideLoad}}<i class="fa fa-spinner fa-5x"></i></div>
+
 <ng-include src="'views/navbar.html'"></ng-include>
-<ng-include src="'views/breadcrumb.html'"></ng-include>
+<section>
+    <ng-include src="'views/breadcrumb.html'"></ng-include>
+</section>
 
-<div ng-controller="ModalCtrl">
-    <script type="text/ng-template" id="myModalContent.html">
-        <div class="modal-header">
-            <h3>I'm a modal!</h3>
-</div>
-        <div class="modal-body">
-            <ul>
-                <li ng-repeat="item in items">
-                    <a ng-click="selected.item = item">{{ item }}</a>
-                </li>
-            </ul>
-            Selected: <b>{{ selected.item }}</b>
-        </div>
-        <div class="modal-footer">
-            <button class="btn btn-primary" ng-click="ok()">OK</button>
-            <button class="btn btn-warning" ng-click="cancel()">Cancel</button>
-        </div>
-    </script>
-
-    <button class="btn btn-default" ng-click="open($event,'views/comments.html',{videoId:ahjsgdhja,desc:video.details.desc})">Open me!</button>
-    <div ng-show="selected">Selection from a modal: {{ selected }}</div>
-</div>
+   
+<section>
+     <div class="animationWrapper">
+         <div class="window"><div class="subject animateHook">I am animated css content - kind of the start of something.</div></div>
+     </div>
+</section>
